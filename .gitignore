@@ -1,0 +1,15 @@
+*.7z
+src/assets/002_video/20241103_reel.mp4
+node_modules/
+public/assets/002_video/20241103_reel.mp4
+public/assets/002_video/cubase.mp4
+public/assets/002_video/flashplay.mp4
+public/assets/002_video/isogasii.mp4
+public/assets/002_video/shinkan.mp4
+public/assets/002_video/shinkan.mp4
+build/static/media/20241103_reel.7cd970656fe68cd15827.mp4
+build/assets/002_video/20241103_reel.mp4
+build/assets/002_video/cubase.mp4
+build/assets/002_video/flashplay.mp4
+build/assets/002_video/isogasii.mp4
+build/assets/002_video/shinkan.mp4

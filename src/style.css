@@ -1,0 +1,384 @@
+* {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+  scrollbar-color: #eee #222;
+  scrollbar-width: thin;
+}
+
+body {
+  margin: 0;
+  background-color: #222;
+  color: #eee;
+}
+
+#root {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  color: white;
+  z-index: 999;
+}
+
+.header-title {
+  display: flex;
+  margin-left: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.header-title h1 {
+  transition: transform 0.2s ease-out;
+}
+.header-title h1:hover {
+  transform: scale(0.99);
+}
+.header-title img {
+  margin-top: 8px;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  /* この要素の高さの半分 */
+}
+
+.header-menu {
+  display: flex;
+  height: 100%;
+  padding-right: 64px;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .header-title img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .header-title h1 {
+    font-size: 16px;
+  }
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 16px;
+  transition: transform 0.2s ease-out;
+}
+button:hover {
+  background: linear-gradient(to right, blue 50%, rgba(0, 0, 0, 0) 50%);
+  background-size: 200% 100%;
+  animation: slideInLeft 1s cubic-bezier(0, 0.7, 0.2, 1);
+}
+@keyframes slideInLeft {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-menu {
+    display: flex;
+    padding-right: 0;
+    height: auto;
+  }
+
+  button {
+    float: left;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .skill {
+    overflow-x: auto;
+  }
+}
+
+.page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  width: 100vw;
+  /* 横幅を画面幅に合わせる */
+  height: 100vh;
+  /* 縦幅を画面高さに合わせる */
+  filter: brightness(0.8);
+  transform: scale(1.2);
+  /* 拡大率 */
+  transition: transform 0.5s ease;
+  object-fit: cover;
+  /* アスペクト比を維持して拡大 */
+  object-position: center;
+}
+
+.page .sentence {
+  margin-left: 10vw;
+  width: 80vw;
+  justify-content: space-between;
+}
+
+.page .space {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  .page .space {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.page .title h1 {
+  font-size: 64px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  animation: fadeIn 1s cubic-bezier(0, 0.7, 0.2, 1) forwards;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 透明な状態から */
+    transform: translateX(20px); /* 下からの登場 */
+  }
+  10% {
+    color: blue;
+  }
+  40% {
+    color: white;
+  }
+  to {
+    opacity: 1; /* 完全に表示された状態 */
+    transform: translateX(0); /* 元の位置に */
+  }
+}
+
+.page .sentence .main p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: thin;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+.page .sentence .main a {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: 2px;
+  color: #eee;
+}
+
+@media (max-width: 800px) {
+  .page .title h1 {
+    font-size: 8vw;
+  }
+
+  .page .sentence .main h1 {
+    font-size: 6vw;
+  }
+
+  .page .sentence .main p {
+    font-size: 3vw;
+  }
+
+  .page .sentence .main a {
+    font-size: 3vw;
+  }
+}
+
+/*
+font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+font-family: "Zen Kaku Gothic New", serif;
+  font-weight: 400;
+  font-style: normal;
+
+*/
+.gallery-container {
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail-container {
+  margin: 2px;
+  width: 448px;
+  height: 252px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+  object-position: center;
+  transition: transform 1s cubic-bezier(0, 0.7, 0.2, 1);
+}
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+.filters {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.filters button {
+  font-size: 16px;
+  border: 2px solid #eee;
+  border-radius: 0.8em;
+  padding-left: 8px;
+  padding-right: 14px;
+  margin-bottom: 32px;
+}
+.filter-button.selected {
+  background-color: blue; /* 選択されたボタンの背景色 */
+}
+
+@media (max-width: 800px) {
+  .thumbnail-container {
+    width: 80vw;
+    height: 45vw;
+  }
+  .filters button {
+    font-size: 3vw;
+    padding-right: 2vw;
+    padding-left: 1vw;
+    margin-bottom: 4vw;
+  }
+}
+
+.modal-content .left {
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+
+.modal-content .right {
+  float: right;
+  width: 45%;
+  padding-left: 5%;
+}
+
+.modal-content video {
+  object-fit: cover;
+  /* アスペクト比を維持して拡大 */
+  object-position: center;
+  width: 100%;
+  height: auto;
+  filter: brightness(1);
+  transform: scale(1);
+
+  flex-direction: row;
+}
+.modal-content img {
+  object-fit: cover;
+  /* アスペクト比を維持して拡大 */
+  object-position: center;
+  width: 100%;
+  height: auto;
+  filter: brightness(1);
+  transform: scale(1);
+
+  flex-direction: row;
+}
+
+.modal-content h2 {
+  margin-top: 8px;
+  margin-left: 4px;
+}
+
+.modal-content h4 {
+  margin: 4px;
+}
+
+.modal-content button {
+  margin-top: 64px;
+  font-size: 20px;
+}
+
+.modal-content .tag {
+  margin: 4px;
+  border-color: #eee;
+}
+
+.modal-content .tool {
+  margin: 4px;
+  border-color: #eee;
+}
+
+.modal-content .links {
+  margin: 4px;
+  border-color: #eee;
+}
+
+.modal-content .links a {
+  margin: 4px;
+}
+
+@media (max-width: 800px) {
+  .modal-content .left {
+    width: 100%;
+  }
+
+  .modal-content .right {
+    float: right;
+    padding-top: 5vw;
+    width: 100%;
+  }
+
+  .modal-content div {
+    font-size: 3vw;
+  }
+
+  .modal-content h2 {
+    font-size: 4vw;
+  }
+
+  .modal-content button {
+    margin-top: 32px;
+    font-size: 4vw;
+  }
+
+  .modal-content h4 {
+    font-size: 3vw;
+  }
+
+  .modal-content .tags {
+    font-size: 3vw;
+  }
+}

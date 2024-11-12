@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "type": "video",
+    "title": "テストお疲れ様でした アニメーション",
+    "tags": ["個人制作", "映像"],
+    "description": "初めてAEで作った動画です",
+    "tools": ["Blender", "After Effects"],
+    "thumbnail": "/assets/003_gif/otu.gif",
+    "video": "/assets/002_video/otu.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 2,
+    "type": "video",
+    "title": "FlashBeat",
+    "tags": ["個人制作", "プログラミング"],
+    "description": "U-16プログラミングコンテスト山口大会 技術賞 企業賞 受賞 Unityで作ったゲームです",
+    "tools": ["Unity", "C#"],
+    "thumbnail": "/assets/003_gif/flashplay.gif",
+    "video": "/assets/002_video/flashplay.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 3,
+    "type": "video",
+    "title": "FlashBeatテーマ曲(BGM)",
+    "tags": ["個人制作", "DTM"],
+    "description": "自作音ゲーFlashBeatのテーマ曲 作曲しました",
+    "tools": ["Cubase"],
+    "thumbnail": "/assets/003_gif/cubase.gif",
+    "video": "/assets/002_video/cubase.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 4,
+    "type": "video",
+    "title": "FlashBeatオープニング",
+    "tags": ["個人制作", "映像"],
+    "description": "FlashBeatのオープニング Aeで作りました",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/flashopen.gif",
+    "video": "/assets/002_video/flashopen.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 5,
+    "type": "video",
+    "title": "嘘と未来 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "ボカロ曲「嘘と未来/うわべ」の文字pvです",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/usoto.gif",
+    "video": "/assets/002_video/usoto.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1790691816637157444",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LNnxiVA9Idw",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "video",
+    "title": "動いたっ！ イラストアニメーション",
+    "tags": ["個人制作", "映像"],
+    "description": "Aeでイラストを動かしてみました",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/anime.gif",
+    "video": "/assets/002_video/anime.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 7,
+    "type": "video",
+    "title": "大雨警報発令中",
+    "tags": ["個人制作", "映像"],
+    "description": "練習です大雨警報が発令中だったので作りました",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/ooame.gif",
+    "video": "/assets/002_video/ooame.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 8,
+    "type": "video",
+    "title": "テストお疲れ様でした アニメーション",
+    "tags": ["個人制作", "映像"],
+    "description": "テスト終わりに作って部活動のDiscordサーバに投下しました",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/otukare.gif",
+    "video": "/assets/002_video/otukare.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 9,
+    "type": "image",
+    "title": "コンピュータ部パンフレットデザイン",
+    "tags": ["個人制作", "デザイン"],
+    "description": "コンピュータ部のパンフレットを作りました",
+    "tools": ["AdobeDX"],
+    "thumbnail": "/assets/001_image/konpu.png",
+    "video": "",
+    "image": "/assets/001_image/konpu.png",
+    "links": [
+      {
+        "url": "https://x.com/ube_k_cclub",
+        "description": "コンピュータ部X"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "type": "video",
+    "title": "どうにかなっちゃいそう 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「どうにかなっちゃいそう/NOMELON NOLEMON」の文字pvです 音声に合わせてイラストが動くエクスプレッションの練習です",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/dounika.gif",
+    "video": "/assets/002_video/dounika.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1815006753144381874",
+        "description": "X"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "type": "image",
+    "title": "青と白のデザイン",
+    "tags": ["個人制作", "デザイン"],
+    "description": "webっぽいデザインの練習です 青と白はかっこよくて好きです",
+    "tools": ["AdobeDX"],
+    "thumbnail": "/assets/001_image/blue.png",
+    "video": "",
+    "image": "/assets/001_image/blue.png",
+    "links": []
+  },
+  {
+    "id": 12,
+    "type": "image",
+    "title": "赤と黒のデザイン",
+    "tags": ["個人制作", "デザイン"],
+    "description": "webっぽいデザインの練習です 赤と黒はスタイリッシュな感じが出ますよね",
+    "tools": ["AdobeDX"],
+    "thumbnail": "/assets/001_image/black.png",
+    "video": "",
+    "image": "/assets/001_image/black.png",
+    "links": []
+  },
+  {
+    "id": 13,
+    "type": "video",
+    "title": "忙しい人のための作文エディター 試作",
+    "tags": ["個人制作", "プログラミング"],
+    "description": "U-22プロコンに向けて制作 単語にマウスオーバーすると類義語が表示されるようなテキストエディターです 全体的なクオリティが低かったのでボツにしました",
+    "tools": ["HTML", "JS", "CSS", "Python"],
+    "thumbnail": "/assets/003_gif/isogatest.gif",
+    "video": "/assets/002_video/isogatest.mp4",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": 14,
+    "type": "video",
+    "title": "忙しい人のための作文エディター 完成版",
+    "tags": ["個人制作", "プログラミング"],
+    "description": "U-22プロコンに向けて制作 チャットGPTAPIを初めて使いました ページ風のドキュメントを作るのが本当に難しかったです ページを開くのにAPIキーが必要です",
+    "tools": ["HTML", "JS", "CSS", "Python", "ChatGPTAPI", "Github"],
+    "thumbnail": "/assets/003_gif/isogasii.gif",
+    "video": "/assets/002_video/isogasii.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://www.youtube.com/watch?v=wtw0tXAqRKE",
+        "description": "Youtube"
+      },
+      {
+        "url": "https://rebuildup.github.io",
+        "description": "Github Page"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "type": "video",
+    "title": "初めてのBlender",
+    "tags": ["個人制作", "映像", "3DCG"],
+    "description": "Blenderを初めて使った動画 普通に難しかったです",
+    "tools": ["Blender"],
+    "thumbnail": "/assets/003_gif/blen.gif",
+    "video": "/assets/002_video/blen.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1832734742124609779",
+        "description": "X"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "type": "video",
+    "title": "Alice in 冷凍庫 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「Alice in 冷凍庫/Orangester Cover-ウォルピスカーター」の文字pvですAviutlを久しぶりに使いました",
+    "tools": ["Aviutl"],
+    "thumbnail": "/assets/003_gif/alice.gif",
+    "video": "/assets/002_video/alice.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1837100915419140131",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=MDcfP97NVpY",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "type": "video",
+    "title": "盲目の怪物 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「盲目の怪物/ひらぎ」の文字pvです 赤・黒・白のテキストアニメーション",
+    "tools": ["Aviutl"],
+    "thumbnail": "/assets/003_gif/moumoku.gif",
+    "video": "/assets/002_video/moumoku.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1837100915419140131",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=aLBMEIOSxdE",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "type": "video",
+    "title": "フラフープハレーション 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「フラフープハレーション/Twinfield」の文字pvです 雲を使ったテキストアニメーション",
+    "tools": ["Aviutl"],
+    "thumbnail": "/assets/003_gif/furafu.gif",
+    "video": "/assets/002_video/furafu.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1838567775390044294",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=llftGyEqH_4",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "type": "video",
+    "title": "熱異常 テキストモーション",
+    "tags": ["個人制作", "映像"],
+    "description": "「熱異常/いよわ」のテキストモーションです インパクトのあるテキストモーションの練習です",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/netu.gif",
+    "video": "/assets/002_video/netu.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1840369939967840508",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=b2NTglk9tvI",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "video",
+    "title": "シンカンセンスゴイカタイアイス p5js練習",
+    "tags": ["個人制作", "映像", "プログラミング"],
+    "description": "「シンカンセンスゴイカタイアイス/シャノン」の映像です p5.jsを使った映像制作の練習です そのうちGithubにソースコードを公開します 後半テンポがズレてるのは動画生成時の負荷で生じる若干のズレが重なったものだと思います",
+    "tools": ["p5js", "Javascript", "HTML"],
+    "thumbnail": "/assets/003_gif/shinkan.gif",
+    "video": "/assets/002_video/shinkan.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1844685698991067303",
+        "description": "X"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=O_VRIuKM9gw",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "type": "video",
+    "title": "高専プロコン 非公式pv",
+    "tags": ["個人制作", "映像"],
+    "description": "全国高等専門学校プログラミングコンテスト 第35回 奈良大会の非公式pvです",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/kousenprocon.gif",
+    "video": "/assets/002_video/kousenprocon.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1845653703463989526",
+        "description": "X"
+      },
+      {
+        "url": "https://x.com/complexivetunes/status/1842760522137297009",
+        "description": "音源"
+      },
+      {
+        "url": "https://www.procon.gr.jp",
+        "description": "高専プロコン2024"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "type": "video",
+    "title": "冥界 二次創作pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「冥界/kabangu」の二次創作文字pvです。イラレで素材を作る練習です。",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/20241027_meikai.gif",
+    "video": "/assets/002_video/20241027_meikai.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1850405797592973597",
+        "description": "X"
+      },
+      {
+        "url": "https://youtu.be/6vkz64v4IRc?si=xe-e1ajaHeYMn35l",
+        "description": "原曲"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "type": "video",
+    "title": "まわる世界 文字pv",
+    "tags": ["個人制作", "映像"],
+    "description": "「まわる世界/飯澤遥土」の二次創作文字pvです。",
+    "tools": ["After Effects"],
+    "thumbnail": "/assets/003_gif/20241102_mawaru.gif",
+    "video": "/assets/002_video/20241102_mawaru.mp4",
+    "image": "",
+    "links": [
+      {
+        "url": "https://x.com/361do_sleep/status/1852638050976751749",
+        "description": "X"
+      },
+      {
+        "url": "https://www.tiktok.com/@harutoiizawa/video/7421877342030597384",
+        "description": "原曲"
+      }
+    ]
+  }
+]
